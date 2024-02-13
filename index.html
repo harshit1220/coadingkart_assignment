@@ -172,19 +172,32 @@
                 </div>
                 <div class="contact-form">
                     <form action="">
-                        <input type="text" placeholder="Full Name"><br>
-                        <input type="text" placeholder="Phone Number"><br>
-                        <select name="puja-service" id="">
-                            <option>Select Puja Service</option>
-                            <option value="">Select Puja Service</option>
-                        </select>
-                        <div class="details" style="display: flex;">
-                            <div class="city">
+                        <div class="fullName">
+
+
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="phoneNumber">
+
+
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <div class="pujaService">
+                            <select name="puja-service" id="">
+                                <option>Select Puja Service</option>
+                                <option value="">Select Puja Service</option>
+                            </select>
+                        </div>
+                        
+                        <div class="details" style="display: flex; gap: 25px">
+                            <div class="city" style="width: 50%;" >
                                 <input type="text" placeholder="City">
                             </div>
-                            <div class="state"><input type="text" placeholder="State"></div><br>
+                            <div class="state" style="width: 50%;"><input type="text" placeholder="State" ></div>
                         </div>
-                        <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                        <div class="yourMessage">
+                        <textarea placeholder="Your Message" resize='none' cols="70" rows="10"></textarea>
+                    </div>
                     </form>
                 </div>
             </div>
