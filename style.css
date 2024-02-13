@@ -5,10 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
   /* background-color: red; */
   font-family: Arial;
-
 }
 
 :root {
@@ -41,7 +41,6 @@ html, body {
   justify-content: center;
   display: flex;
   gap: 20px;
-
 }
 .logo-div img {
   height: inherit;
@@ -49,7 +48,7 @@ html, body {
 }
 
 .pooja-we-do select {
-    font-size: 16px;
+  font-size: 16px;
   border: none;
   outline: none;
 }
@@ -113,9 +112,9 @@ html, body {
   left: 45%;
   font-weight: normal;
 }
-.call-now-btn-in{
-    display: flex;
-    gap: 20px;
+.call-now-btn-in {
+  display: flex;
+  gap: 20px;
 }
 
 /* @media screen and (max-width: 960px) {
@@ -135,43 +134,40 @@ html, body {
   /* padding: 10px 20px; */
 }
 
-.About{
-height: 75vh;
-display: flex;
-align-items: center;
-gap: 100px;
-margin-left: 300px;
+.About {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-left: 300px;
 }
 
-
-.pandit-ji-img{
-    height: 400px;
-    
+.pandit-ji-img {
+  height: 400px;
 }
 
-.name{
-font-weight:normal;
-font-size: 30px;
+.name {
+  font-weight: normal;
+  font-size: 30px;
 }
 
-.about-panditji-name{
-    margin-top: 10px;
-border-left: 3.5px rgb(231, 155, 13) solid;
+.about-panditji-name {
+  margin-top: 10px;
+  border-left: 3.5px rgb(231, 155, 13) solid;
 }
-.about-pooja-path
-{
-    background-color: #faf8f1;
-    height: 75vh;
-    display: flex;
-    align-items: center;
-    gap: 100px;
-    }
+.about-pooja-path {
+  background-color: #faf8f1;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
 
-.pooja-performed-by-panditji{
+.pooja-performed-by-panditji {
   margin-left: 295px;
-}    
+}
 
-.Poojas-performed{
+.Poojas-performed {
   height: 85vh;
   width: 100%;
   display: flex;
@@ -179,12 +175,12 @@ border-left: 3.5px rgb(231, 155, 13) solid;
   flex-direction: column;
 }
 
-.other-pooja{
+.other-pooja {
   margin-top: 80px;
   text-align: center;
 }
 
-.pooja-details{
+.pooja-details {
   height: 80vh;
   width: 100%;
   margin-top: 50px;
@@ -194,21 +190,21 @@ border-left: 3.5px rgb(231, 155, 13) solid;
   gap: 50px;
 }
 
-.card{
-height: 300px;
-width: 280px;
-border-radius: 5px;
-background-color: white;
-box-shadow: 0px 3px 8px grey;
+.card {
+  height: 300px;
+  width: 280px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 3px 8px grey;
 }
 
-.photo img{
+.photo img {
   border-radius: 5px 5px 0px 0px;
   height: 50%;
   width: 100%;
 }
 
-.pooja-type{
+.pooja-type {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
@@ -217,39 +213,40 @@ box-shadow: 0px 3px 8px grey;
   text-align: center;
 }
 
-.pooja-type p{
+.pooja-type p {
   font-size: 15px;
   font-weight: bold;
 }
 
-.read-btn{
+.read-btn {
   height: 40px;
   position: relative;
   width: 150px;
   background-color: #e9983f;
 }
 
-.read-btn p{
+.read-btn p {
   font-size: 16px;
-  margin-top: 10px; color: white;
+  margin-top: 10px;
+  color: white;
 }
 
-.read-btn:hover{
-width: 160px;
-background-color: rgb(187, 57, 57);
+.read-btn:hover {
+  width: 160px;
+  background-color: rgb(187, 57, 57);
 }
 
-.txt:hover{
-  color: rgb(187, 57, 57) ;
+.txt:hover {
+  color: rgb(187, 57, 57);
 }
 
-.know-where-to-start img{
+.know-where-to-start img {
   /* background-image: url("/images/wherseToStart.png"); */
   height: 240px;
   width: 100%;
 }
 
-.book-now{
+.book-now {
   position: relative;
   color: #e9983f;
     top: -86px;
@@ -263,13 +260,44 @@ background-color: rgb(187, 57, 57);
     cursor: pointer;
 }
 
-.book-now:hover{
+.book-now:hover {
   background-color: #e9983f;
   color: var(--white-color);
   width: 169px;
 }
 
-.contact{
+.contact-form form {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.fullName input,
+.phoneNumber input,
+.pujaService select,
+.city input,
+.state input,
+.yourMessage textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 14px 15px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  resize: none;
+}
+
+option, textarea, select{
+  color: #8b8b8b;
+  opacity: 1; 
+}
+
+input::placeholder {
+  color: #8b8b8b;
+  opacity: 1; 
+}
+
+.contact {
   height: 70vh;
   width: 100%;
   background-color: #faf8f1;
@@ -277,38 +305,33 @@ background-color: rgb(187, 57, 57);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 130px;
 }
 
 /*----------------------------FORM-------------------------*/
 
-
 /************************************FORM END**************************************/
 
-
-.foot{
-    height: 43vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    font-weight: lighter;
-    font-size: 14px;
-    background-color: rgb(29, 25, 25);
-    
+.foot {
+  height: 43vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-weight: lighter;
+  font-size: 14px;
+  background-color: rgb(29, 25, 25);
 }
 
-
-.col{
+.col {
   color: var(--white-color);
   list-style-type: none;
-  
 }
 
-.col li{
-cursor: pointer;
-font-weight: lighter;
+.col li {
+  cursor: pointer;
+  font-weight: lighter;
 }
 
 /*------------------horizontal line----------------*/
@@ -318,7 +341,7 @@ font-weight: lighter;
   border: none; /* Remove border */
 }
 
-.icons{
+.icons {
   margin-top: 30px;
   display: flex;
   gap: 20px;
