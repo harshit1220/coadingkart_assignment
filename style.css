@@ -41,7 +41,7 @@ html, body {
   justify-content: center;
   display: flex;
   gap: 20px;
-  width: 300px;
+
 }
 .logo-div img {
   height: inherit;
@@ -91,14 +91,15 @@ html, body {
   outline: none;
   background-color: white;
   color: var(--primary-yellow-color);
-  padding: 12px 60px;
+  padding: 16px 35px 16px 35px;
   position: absolute;
   bottom: 130px;
   right: 352px;
+  font-weight: normal;
 }
 .call-now-btn-in{
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 /* @media screen and (max-width: 960px) {
@@ -119,17 +120,13 @@ html, body {
 }
 
 .About{
-height: 500px;
+height: 75vh;
 display: flex;
 align-items: center;
 gap: 100px;
 margin-left: 300px;
 }
 
-.about-panditji{
-    
-   
-}
 
 .pandit-ji-img{
     height: 400px;
@@ -147,9 +144,167 @@ border-left: 3.5px rgb(231, 155, 13) solid;
 }
 .about-pooja-path
 {
-    background-color: #fdf9ef;
-    height: 500px;
+    background-color: #faf8f1;
+    height: 75vh;
     display: flex;
     align-items: center;
     gap: 100px;
     }
+
+.pooja-performed-by-panditji{
+  margin-left: 295px;
+}    
+
+.Poojas-performed{
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.other-pooja{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.pooja-details{
+  height: 80vh;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.card{
+height: 300px;
+width: 280px;
+border-radius: 5px;
+background-color: white;
+box-shadow: 0px 3px 8px grey;
+}
+
+.photo img{
+  border-radius: 5px 5px 0px 0px;
+  height: 50%;
+  width: 100%;
+}
+
+.pooja-type{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.pooja-type p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.read-btn{
+  height: 40px;
+  position: relative;
+  width: 150px;
+  background-color: #e9983f;
+}
+
+.read-btn p{
+  font-size: 16px;
+  margin-top: 10px; color: white;
+}
+
+.read-btn:hover{
+width: 160px;
+background-color: rgb(187, 57, 57);
+}
+
+.txt:hover{
+  color: rgb(187, 57, 57) ;
+}
+
+.know-where-to-start img{
+  /* background-image: url("/images/wherseToStart.png"); */
+  height: 240px;
+  width: 100%;
+}
+
+.book-now{
+  position: relative;
+  color: #e9983f;
+    top: -88px;
+    right: -44.5%;
+    height: 40px;
+    width: 165px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.book-now:hover{
+  background-color: #e9983f;
+  color: var(--white-color);
+  width: 169px;
+}
+
+.contact{
+  height: 70vh;
+  width: 100%;
+  background-color: #faf8f1;
+  margin-top: -42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+/*----------------------------FORM-------------------------*/
+
+
+/************************************FORM END**************************************/
+
+
+.foot{
+    height: 43vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: rgb(29, 25, 25);
+    
+}
+
+
+.col{
+  color: var(--white-color);
+  list-style-type: none;
+  
+}
+
+.col li{
+cursor: pointer;
+font-weight: lighter;
+}
+
+/*------------------horizontal line----------------*/
+.grey-line {
+  background-color: #4a4a4a; /* Grey color */
+  height: 1.5px; /* Thickness of the line */
+  border: none; /* Remove border */
+}
+
+.icons{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
