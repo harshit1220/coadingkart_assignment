@@ -233,15 +233,15 @@ body {
 .book-now {
   position: relative;
   color: #e9983f;
-  top: -88px;
-  right: -44.5%;
-  height: 40px;
-  width: 165px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+    top: -86px;
+    right: -44.5%;
+    height: 40px;
+    width: 165px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .book-now:hover {
